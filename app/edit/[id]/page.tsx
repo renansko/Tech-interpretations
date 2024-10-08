@@ -28,7 +28,7 @@ export default function EditPage({params}: {params: {id: string}}){
         }
 
         fetchData();
-    }, []);
+    }, );
 
     const handleInputChange = (
         e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
